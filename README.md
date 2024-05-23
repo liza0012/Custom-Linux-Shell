@@ -6,7 +6,7 @@ This comprehensive overview provides details on external and internal commands i
 
 # External Commands
 ### 1. ls
-**- ls -a**
+```- ls -a```
 - ls -m
 ### 2. cat
 - cat -n
