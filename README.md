@@ -5,29 +5,29 @@ This project implements a custom Unix/Linux shell in C, offering basic command e
 This comprehensive overview provides details on external and internal commands implemented in the shell, along with error-handling mechanisms. Additionally, test cases and assumptions are outlined to guide users in utilizing the shell effectively.
 
 # External Commands
-1. ls
-- ls -a
+### 1. ls
+**- ls -a**
 - ls -m
-2. cat
+### 2. cat
 - cat -n
 - cat -E
-3. date
+### 3. date
 - date -u
 - date -I
-4. rm
+### 4. rm
 - rm -v
 - rm -i
-5. mkdir
+### 5. mkdir
 - mkdir -p
 - mkdir -v
-Internal Commands
-1. cd
+## Internal Commands
+### 1. cd
 - cd ~
 - cd ..
-2. echo
+### 2. echo
 - echo *
 - echo --help
-3. pwd
+### 3. pwd
 - pwd -L
 - pwd -P
 # Error Handling
